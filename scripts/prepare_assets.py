@@ -28,8 +28,8 @@ webp('technology.jpg', 'technology', [640, 1280])
 webp('Scheme.png', 'scheme', [1366], lossless=True)
 webp('logo1.jpg', 'tgasu', [260])
 webp('logo1.png', 'smart-build', [300])
-webp('logo3new.png', 'kursiv', [560])
-webp('logo4.png', 'MIC', [980])
+webp('logo3new.png', 'logo3new', [460])
+webp('logo4.png', 'logo4', [1134])
 with Image.open(source / 'qr.png') as qr:
     url = zxingcpp.read_barcode(qr).text
     for size, name in ((300, 'qr.png'), (600, 'qr-600.png')):
