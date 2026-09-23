@@ -1,0 +1,13 @@
+.tools/
+artifacts/
+scripts/
+__pycache__/
+.git/
+prompt.md
+README.md
+images/main.png
+images/technology.jpg
+images/qr.png
+images/logo1.jpg
+images/logo1.png
+images/logo3.png
