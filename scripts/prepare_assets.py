@@ -21,7 +21,7 @@ def webp(original, name, widths, crop=None, lossless=False):
             suffix = f'-{width}' if len(widths) > 1 else ''
             resized.save(output / f'{name}{suffix}.webp', quality=82, method=6, lossless=lossless)
 
-webp('main.png', 'main', [960, 1672])
+webp('main_desktop.png', 'main-desktop', [960, 1600, 2007])
 # Square crop retains both outer edges and the crown of the central arch.
 webp('main.png', 'main-mobile', [640, 960], crop=(365, 0, 1306, 941))
 webp('technology.jpg', 'technology', [640, 1280])
