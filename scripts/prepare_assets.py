@@ -31,8 +31,9 @@ webp('logo1.png', 'smart-build', [300])
 webp('logo3.png', 'kursiv', [560])
 with Image.open(source / 'qr.png') as qr:
     url = zxingcpp.read_barcode(qr).text
-    qr.resize((300, 300), Image.Resampling.LANCZOS).save(output / 'qr.png', optimize=True)
-    assert zxingcpp.read_barcode(Image.open(output / 'qr.png')).text == url
+    for size, name in ((300, 'qr.png'), (600, 'qr-600.png')):
+        qr.resize((size, size), Image.Resampling.LANCZOS).save(output / name, optimize=True)
+        assert zxingcpp.read_barcode(Image.open(output / name)).text == url
 page = ROOT / 'index.html'
 page.write_text(page.read_text(encoding='utf-8').replace('COURSE_URL', url), encoding='utf-8')
 print('QR destination:', url)
