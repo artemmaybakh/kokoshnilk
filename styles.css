@@ -4,6 +4,7 @@
 @media(min-width:768px){.hero picture{position:relative;z-index:1}.hero img{height:min(56.28vw,calc(100svh - 84px));aspect-ratio:auto;object-fit:cover;object-position:center}.hero:after{z-index:1}.hero-content{z-index:2}}
 @media(min-width:900px){.split{grid-template-columns:minmax(0,1fr) minmax(0,1.12fr);gap:clamp(40px,6vw,90px);align-items:center}.hero-content{padding-top:40px}.hero h1 br{display:none}.hero h1{font-size:clamp(78px,9.4vw,140px)}.hero .eyebrow{margin-bottom:20px}.hero-bottom{margin-top:32px}.scheme-link{padding:24px}.team-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:24px}.team-group ul{font-size:16px}.partners{padding-bottom:40px}.course{padding-block:40px;grid-template-columns:minmax(0,1fr) 220px}.qr img{width:220px;height:220px;margin-inline:auto}}
 @media(min-width:1024px){.partners{grid-template-columns:repeat(4,minmax(0,1fr));gap:clamp(20px,3vw,48px)}}
+.partners-title{margin-top:34px;text-align:center;color:var(--muted)}
 .course-description{max-width:70ch;margin-top:20px;font-size:clamp(16px,1.2vw,18px);line-height:1.65}
 @media(prefers-reduced-motion:no-preference){.reveal.is-visible{animation:appear .55s ease-out both}@keyframes appear{from{opacity:.35;transform:translateY(10px)}to{opacity:1;transform:none}}a{transition:color .2s ease}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}}
