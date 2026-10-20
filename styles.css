@@ -11,6 +11,4 @@
 @media(prefers-reduced-motion:no-preference){.reveal.is-visible{animation:appear .55s ease-out both}@keyframes appear{from{opacity:.35;transform:translateY(10px)}to{opacity:1;transform:none}}a{transition:color .2s ease}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}}
 
-.header nav a[href="download.html"]{color:var(--accent);font-weight:700}
 @media(max-width:599px){.header nav{gap:4px}.header nav a{font-size:12px}}
-@media(min-width:900px){.header nav a[href="download.html"]{border:1px solid var(--accent);padding-inline:14px}}
