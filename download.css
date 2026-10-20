@@ -8,9 +8,10 @@
 .download-panel .eyebrow{color:var(--muted)}
 .download-panel h2{margin:12px 0 8px;font-size:clamp(30px,3.5vw,48px);overflow-wrap:anywhere}
 .download-panel p:last-child{color:var(--muted);font-size:14px}
-.download-button{display:inline-flex;align-items:center;justify-content:space-between;gap:32px;min-width:215px;min-height:56px;padding:14px 20px;background:var(--accent);color:white;text-decoration:none;font-size:15px;white-space:nowrap}
+.download-action{width:min(100%,300px)}
+.download-button{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:56px;padding:14px 20px;background:var(--accent);color:white;text-decoration:none;font-size:15px;line-height:1.4}
 .download-button:hover{background:var(--ink)}
 .download-button span{font-size:22px;line-height:1}
-.download-note{max-width:630px;margin-top:24px;color:var(--muted);font-size:14px}
+.download-requirement{margin-top:12px;color:var(--muted);font-size:14px}
 .download-footer{padding-top:0}
 @media(max-width:599px){.download-panel{align-items:stretch;flex-direction:column}.download-button{width:100%}}
