@@ -1,0 +1,16 @@
+.download-body{min-height:100vh;min-height:100svh;display:flex;flex-direction:column}
+.download-main{flex:1;padding-top:clamp(64px,10vw,150px);padding-bottom:clamp(64px,10vw,150px)}
+.download-intro{max-width:900px}
+.download-intro h1{font-size:clamp(52px,8vw,112px);line-height:1.02}
+.download-intro h1 em{color:var(--accent);font-weight:400}
+.download-lead{max-width:520px;margin-top:32px;font-size:clamp(18px,2vw,24px);line-height:1.5}
+.download-panel{margin-top:clamp(48px,7vw,96px);padding:clamp(24px,4vw,52px);border-top:1px solid var(--line);border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;gap:32px}
+.download-panel .eyebrow{color:var(--muted)}
+.download-panel h2{margin:12px 0 8px;font-size:clamp(30px,3.5vw,48px);overflow-wrap:anywhere}
+.download-panel p:last-child{color:var(--muted);font-size:14px}
+.download-button{display:inline-flex;align-items:center;justify-content:space-between;gap:32px;min-width:215px;min-height:56px;padding:14px 20px;background:var(--accent);color:white;text-decoration:none;font-size:15px;white-space:nowrap}
+.download-button:hover{background:var(--ink)}
+.download-button span{font-size:22px;line-height:1}
+.download-note{max-width:630px;margin-top:24px;color:var(--muted);font-size:14px}
+.download-footer{padding-top:0}
+@media(max-width:599px){.download-panel{align-items:stretch;flex-direction:column}.download-button{width:100%}}
